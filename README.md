@@ -1,2 +1,3 @@
-# go-lib-template
-Template project for Go libraries.
+[![Tests on Linux, MacOS and Windows](https://github.com/bep/go-lib-template/workflows/Test/badge.svg)](https://github.com/bep/go-lib-template/actions?query=workflow:Test)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bep/go-lib-template)](https://goreportcard.com/report/github.com/bep/go-lib-template)
+[![GoDoc](https://godoc.org/github.com/bep/go-lib-template?status.svg)](https://godoc.org/github.com/bep/go-lib-template)
