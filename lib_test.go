@@ -3,10 +3,9 @@ package golibtemplate
 import (
 	"testing"
 
-	qt "github.com/frankban/quicktest"
+	"github.com/go-quicktest/qt"
 )
 
 func TestFoo(t *testing.T) {
-	c := qt.New(t)
-	c.Assert(Foo(), qt.Equals, "foo")
+	qt.Assert(t, qt.Equals(Foo(), "foo"))
 }
